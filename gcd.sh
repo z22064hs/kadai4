@@ -39,14 +39,12 @@ fi
 c=$(($a%$b))
 
 #ユークリッドの互除法（ループ）
-echo "初回 b= $b"        #確認用
 while [ ! $c == 0 ];
 do
 a=$b
 b=$c
 c=$(($a%$b))
-echo "確認 b= $b"        #確認用
 done
 
 #最大公約数表示
-echo "最大公約数= $b"
+echo "CGD= $b"
