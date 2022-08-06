@@ -55,7 +55,7 @@ echo "[TEST 71] OK"
 
 #[TEST 72] 引数１
 ./gcd.sh 10 2> $result && ERROR_EXIT "[ERR  72] 引数１（異常終了せず）"
-echo "[ERROR 01] 引数は自然数を２つ入力してください。" > $ans
+echo "[ERROR 01] 引数は自然数を２つ入力してください。ＱＱ" > $ans
 diff $result $ans >> $err || ERROR_EXIT "[ERR  72] 引数１（エラーメッセージ相違）"
 echo "[TEST 72] OK"
 
