@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #ディレクトリの変数への登録
-result="/tmp/z22064hs$$-res"
-ans="/tmp/z22064hs$$-ans"
-err="/tmp/z22064hs$$-err"
-remove="/tmp/z22064hs$$-*"
+result="/home/z22064hs/kadai4/tmp/$$-result"
+ans="/home/z22064hs/kadai4/tmp/$$-ans"
+err="/home/z22064hs/kadai4/tmp/$$-error"
+remove="/home/z22064hs/kadai4/tmp/$$-*"
 
 
 #関数によるエラー処理
