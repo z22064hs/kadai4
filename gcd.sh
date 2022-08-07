@@ -47,4 +47,4 @@ c=$(($a%$b))
 done
 
 #最大公約数表示
-echo "CGD= $b"
+echo "GCD= $b"
